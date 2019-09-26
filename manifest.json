@@ -1,0 +1,13 @@
+{
+  "name": "moDOMinator chrome extension",
+  "version": "0.1",
+  "description": "Chrome extension that utilizes moDOMinator to scan modern front-end applications for web vulnerabilities.",
+  "manifest_version": 2,
+  "content_scripts": [
+    {
+      "matches": ["http://*/*", "https://*/*"],
+      "js": ["bundle.js"],
+      "run_at": "document_start"
+    }
+  ]
+}

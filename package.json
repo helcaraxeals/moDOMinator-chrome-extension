@@ -1,0 +1,22 @@
+{
+  "name": "modominator-chrome-extension",
+  "version": "0.1.0",
+  "description": "Chrome extension that utilizes moDOMinator to scan modern front-end applications for web vulnerabilities.",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack index.js -o bundle.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tanhengyeow/moDOMinator-chrome-extension"
+  },
+  "author": "tanhengyeow",
+  "license": "MIT",
+  "dependencies": {
+    "modominator": "^0.1.1",
+    "webpack": "^4.41.0"
+  },
+  "devDependencies": {
+    "webpack-cli": "^3.3.9"
+  }
+}
